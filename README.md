@@ -35,7 +35,7 @@ But if you’d like to buy them separately I have provided a table below.
 
 #
 
-**Fig.1 Rasberry Pico W**
+## **Fig.1 Rasberry Pico W**
 
 The Raspberry Pi Pico W is an affordable microcontroller board that serves as the foundation for various projects. With its built-in wireless networking capabilities, it offers convenient connectivity options.
 
@@ -43,7 +43,7 @@ The Raspberry Pi Pico W is an affordable microcontroller board that serves as th
 
 #
 
-**Fig.2 MCP9700 TO-92**
+## **Fig.2 MCP9700 TO-92**
 
 The MCP9700 TO-92 is a small temperature sensor module commonly used in electronic projects. With its compact form factor and straightforward interface, it provides accurate temperature measurements. Its TO-92 package allows for easy integration into circuits, making it an ideal choice for temperature sensing applications.
 
@@ -51,7 +51,7 @@ The MCP9700 TO-92 is a small temperature sensor module commonly used in electron
 
 #
 
-**Fig.3 TLV49645 SIP-3**
+## **Fig.3 TLV49645 SIP-3**
 
 The TLV49645 SIP-3 is a compact magnetic sensor module widely used in various electronic applications. With its small size and convenient SIP-3 package, it offers precise magnetic field detection. The module is easily integrated into circuits, making it an excellent choice for projects requiring magnetic sensing capabilities.
 
@@ -59,7 +59,7 @@ The TLV49645 SIP-3 is a compact magnetic sensor module widely used in various el
 
 #
 
-**Fig.4 DHT11 Sensor**
+## **Fig.4 DHT11 Sensor**
 
 The DHT11 sensor is a commonly used module for measuring temperature and humidity in electronic projects. It is a cost-effective sensor that provides reliable and accurate readings. With its compact size and simple interface, the DHT11 sensor is widely employed in applications where monitoring environmental conditions is necessary.
 
@@ -67,7 +67,7 @@ The DHT11 sensor is a commonly used module for measuring temperature and humidit
 
 #
 
-**Fig.5 USB A-male to MicroB**
+## **Fig.5 USB A-male to MicroB**
 
 The USB A-male to MicroB cable is a standard connector used for connecting devices with MicroB ports, such as the Raspberry Pi Pico W, to USB A ports. It enables data transfer and power delivery between devices. With its universal compatibility and convenient design, this cable is widely employed for connecting the Raspberry Pi Pico W, smartphones, tablets, and other peripherals to computers and chargers.
 
@@ -75,7 +75,7 @@ The USB A-male to MicroB cable is a standard connector used for connecting devic
 
 #
 
-**Fig.5 Breadboard 400**
+## **Fig.5 Breadboard 400**
 
 The Breadboard 400 is a versatile prototyping tool used in electronics projects. With its 400 tie-points and easy-to-use design, it allows for quick and convenient circuit building without the need for soldering. The Breadboard 400 is widely used by hobbyists and professionals alike for testing and experimenting with various electronic components and connections.
 
@@ -83,7 +83,7 @@ The Breadboard 400 is a versatile prototyping tool used in electronics projects.
 
 #
 
-**Fig.6 Jumper wires**
+## **Fig.6 Jumper wires**
 
 Jumper wires are essential components that facilitate the connection between different electronic components on a breadboard, such as the Breadboard 400. These wires are used to establish electrical connections and provide flexibility in circuit design.
 
@@ -92,7 +92,7 @@ Jumper wires are essential components that facilitate the connection between dif
 
 # Wiring
 
-**Fig.1 MCP9700 TO-92**
+## **Fig.1 MCP9700 TO-92**
 
 ![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/89d206ad-afbe-47bd-87a0-1c7ff8be4165)
 
@@ -102,7 +102,7 @@ Jumper wires are essential components that facilitate the connection between dif
 #
 
 
-**Fig.2 TLV49645 SIP-3**
+## **Fig.2 TLV49645 SIP-3**
 
 ![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/693d6f12-a79a-4b2a-a379-929ac55c7967)
 
@@ -110,4 +110,12 @@ Jumper wires are essential components that facilitate the connection between dif
 <a href="url"><img src="https://i.imgur.com/Gn52EAZ.png" align="middle" height="" width="" ></a>
 
 
-**Fig.3 DHT11 Sensor**
+## **Fig.3 DHT11 Sensor**
+
+![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/a3249866-2154-43f0-adc1-5bca143b0a6f)
+
+
+
+<a href="url"><img src="https://i.imgur.com/Pu5MOOW.png" align="middle" height="" width="" ></a>
+
+#
