@@ -1,2 +1,6 @@
-# IOT_Sensors
-Internet Of Things - LNU
+# Visualizing data from sensors
+
+
+Anton Kraft
+
+ak255ic
