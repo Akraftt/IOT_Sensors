@@ -17,6 +17,10 @@ The objective of this project is to use a microcontroller to measure different t
 
 # Material
 
+Everything I’ve used in this project can be found in the [LNU – 1DT305 Standard Kit (2023)](https://www.electrokit.com/en/product/lnu-1dt305-standard-kit-2023/)
+
+
+
 | Device          | Amount Needed             | Total Price             | Where to buy    |
 |:-------------:|:-------------:|:-------------:|:-------------:|
 | Rasberry Pico W    | 1     | 98.00 SEK     |   [Electrokit](https://www.electrokit.com/en/product/raspberry-pi-pico-w/)
