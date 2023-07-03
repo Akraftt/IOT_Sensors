@@ -79,12 +79,12 @@ The USB A-male to MicroB cable is a standard connector used for connecting devic
 
 The Breadboard 400 is a versatile prototyping tool used in electronics projects. With its 400 tie-points and easy-to-use design, it allows for quick and convenient circuit building without the need for soldering. The Breadboard 400 is widely used by hobbyists and professionals alike for testing and experimenting with various electronic components and connections.
 
-<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41003/41003290.jpg" align="middle" height="600" width="800" ></a>
+<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41012/41012199.jpg" align="middle" height="600" width="800" ></a>
 
 #
 
 **Fig.6 Jumper wires**
 
-Jumper wires are essential components that facilitate the connection between different electronic components on a breadboard, such as the Breadboard 400. These wires are used to establish electrical connections and provide flexibility in circuit design
+Jumper wires are essential components that facilitate the connection between different electronic components on a breadboard, such as the Breadboard 400. These wires are used to establish electrical connections and provide flexibility in circuit design.
 
-<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41019/41019110-1.jpg" align="middle" height="600" width="800" ></a>
+<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41015/41015693.jpg" align="middle" height="600" width="800" ></a>
