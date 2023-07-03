@@ -88,3 +88,18 @@ The Breadboard 400 is a versatile prototyping tool used in electronics projects.
 Jumper wires are essential components that facilitate the connection between different electronic components on a breadboard, such as the Breadboard 400. These wires are used to establish electrical connections and provide flexibility in circuit design.
 
 <a href="url"><img src="https://www.electrokit.com/uploads/productimage/41015/41015693.jpg" align="middle" height="600" width="800" ></a>
+
+
+# Wiring
+
+**Fig.1 MCP9700 TO-92**
+
+![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/89d206ad-afbe-47bd-87a0-1c7ff8be4165)
+
+
+<a href="url"><img src="https://i.imgur.com/OEZxPa7.png" align="middle" height="600" width="800" ></a>
+
+**Fig.2 TLV49645 SIP-3**
+
+
+**Fig.3 DHT11 Sensor**
