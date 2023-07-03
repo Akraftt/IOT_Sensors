@@ -17,8 +17,8 @@ The objective of this project is to use a microcontroller to measure different t
 
 # Material
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| [![alt text] ](https://github.com/Akraftt/IOT_Sensors/issues/1)    | right-aligned | $1600 |
+| Device          | Price             | Link    |
+|:-------------:|:-------------:|:-------------:|
+| Rasberry Pico W  | 98.00 SEK | [Electrokit](https://www.electrokit.com/en/product/raspberry-pi-pico-w/)
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
