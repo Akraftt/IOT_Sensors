@@ -119,3 +119,8 @@ Jumper wires are essential components that facilitate the connection between dif
 <a href="url"><img src="https://i.imgur.com/Pu5MOOW.png" align="middle" height="" width="" ></a>
 
 #
+
+
+
+# Computer Setup
+
