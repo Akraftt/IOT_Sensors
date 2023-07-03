@@ -23,5 +23,8 @@ The objective of this project is to use a microcontroller to measure different t
 | MCP9700 TO-92      | 1     | 10.75 SEK     |   [Electrokit](https://www.electrokit.com/en/product/mcp9700-e-to-to-92-temperature-sensor/) |
 | TLV49645 SIP-3     | 1     | 18.00 SEK     |   [Electrokit](https://www.electrokit.com/en/product/tlv49645-sip-3-hall-effektsensor-digital-2/) |
 | DHT11 Sensor       | 1     | 49.00 SEK     |   [Electrokit](https://www.electrokit.com/en/product/digital-temperature-and-humidity-sensor-dht11/) |
+| USB A-male to MicroB | 1     | 39.00 SEK     |   [Electrokit](https://www.electrokit.com/en/product/usb-cable-a-male-microb-male-1-8m/) |
+| Breadboard 400     | 2     | 98.00 SEK (49 Each)    |   [Electrokit](https://www.electrokit.com/en/product/digital-temperature-and-humidity-sensor-dht11/) |
+| Jumper wires     | 9     | 29.00    |   [Electrokit](https://www.electrokit.com/en/product/jumper-wires-1-pin-male-male-150mm-10-pack/) |
 
 
