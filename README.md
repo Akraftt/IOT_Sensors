@@ -43,5 +43,48 @@ The Raspberry Pi Pico W is an affordable microcontroller board that serves as th
 
 #
 
+**Fig.2 MCP9700 TO-92**
 
-**Fig.1 Rasberry Pico W**
+The MCP9700 TO-92 is a small temperature sensor module commonly used in electronic projects. With its compact form factor and straightforward interface, it provides accurate temperature measurements. Its TO-92 package allows for easy integration into circuits, making it an ideal choice for temperature sensing applications.
+
+<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41019/41019110-1.jpg" align="middle" height="600" width="800" ></a>
+
+#
+
+**Fig.3 MCP9700 TO-92**
+
+The MCP9700 TO-92 is a small temperature sensor module commonly used in electronic projects. With its compact form factor and straightforward interface, it provides accurate temperature measurements. Its TO-92 package allows for easy integration into circuits, making it an ideal choice for temperature sensing applications.
+
+<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41019/41019110-1.jpg" align="middle" height="600" width="800" ></a>
+
+#
+
+**Fig.4 DHT11 Sensor**
+
+The MCP9700 TO-92 is a small temperature sensor module commonly used in electronic projects. With its compact form factor and straightforward interface, it provides accurate temperature measurements. Its TO-92 package allows for easy integration into circuits, making it an ideal choice for temperature sensing applications.
+
+<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41019/41019110-1.jpg" align="middle" height="600" width="800" ></a>
+
+#
+
+**Fig.5 USB A-male to MicroB**
+
+The MCP9700 TO-92 is a small temperature sensor module commonly used in electronic projects. With its compact form factor and straightforward interface, it provides accurate temperature measurements. Its TO-92 package allows for easy integration into circuits, making it an ideal choice for temperature sensing applications.
+
+<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41019/41019110-1.jpg" align="middle" height="600" width="800" ></a>
+
+#
+
+**Fig.5 Breadboard 400**
+
+The MCP9700 TO-92 is a small temperature sensor module commonly used in electronic projects. With its compact form factor and straightforward interface, it provides accurate temperature measurements. Its TO-92 package allows for easy integration into circuits, making it an ideal choice for temperature sensing applications.
+
+<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41019/41019110-1.jpg" align="middle" height="600" width="800" ></a>
+
+#
+
+**Fig.6 Jumper wires**
+
+The MCP9700 TO-92 is a small temperature sensor module commonly used in electronic projects. With its compact form factor and straightforward interface, it provides accurate temperature measurements. Its TO-92 package allows for easy integration into circuits, making it an ideal choice for temperature sensing applications.
+
+<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41019/41019110-1.jpg" align="middle" height="600" width="800" ></a>
