@@ -30,7 +30,7 @@ But if you’d like to buy them separately I have provided a table below.
 | TLV49645 SIP-3     | 1     | 18.00 SEK     |   [Electrokit](https://www.electrokit.com/en/product/tlv49645-sip-3-hall-effektsensor-digital-2/) |
 | DHT11 Sensor       | 1     | 49.00 SEK     |   [Electrokit](https://www.electrokit.com/en/product/digital-temperature-and-humidity-sensor-dht11/) |
 | USB A-male to MicroB | 1     | 39.00 SEK     |   [Electrokit](https://www.electrokit.com/en/product/usb-cable-a-male-microb-male-1-8m/) |
-| Breadboard 400     | 2     | 98.00 SEK (49 Each)    |   [Electrokit](https://www.electrokit.com/en/product/digital-temperature-and-humidity-sensor-dht11/) |
+| Breadboard 400     | 2     | 98.00 SEK (49 Each)    |   [Electrokit](https://www.electrokit.com/en/product/solderless-breadboard-400-tie-points/) |
 | Jumper wires     | 9     | 29.00    |   [Electrokit](https://www.electrokit.com/en/product/jumper-wires-1-pin-male-male-150mm-10-pack/) |
 
 #
@@ -71,7 +71,7 @@ The DHT11 sensor is a commonly used module for measuring temperature and humidit
 
 The USB A-male to MicroB cable is a standard connector used for connecting devices with MicroB ports, such as the Raspberry Pi Pico W, to USB A ports. It enables data transfer and power delivery between devices. With its universal compatibility and convenient design, this cable is widely employed for connecting the Raspberry Pi Pico W, smartphones, tablets, and other peripherals to computers and chargers.
 
-<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41019/41019110-1.jpg" align="middle" height="600" width="800" ></a>
+<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41003/41003290.jpg" align="middle" height="600" width="800" ></a>
 
 #
 
@@ -79,7 +79,7 @@ The USB A-male to MicroB cable is a standard connector used for connecting devic
 
 The Breadboard 400 is a versatile prototyping tool used in electronics projects. With its 400 tie-points and easy-to-use design, it allows for quick and convenient circuit building without the need for soldering. The Breadboard 400 is widely used by hobbyists and professionals alike for testing and experimenting with various electronic components and connections.
 
-<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41019/41019110-1.jpg" align="middle" height="600" width="800" ></a>
+<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41003/41003290.jpg" align="middle" height="600" width="800" ></a>
 
 #
 
