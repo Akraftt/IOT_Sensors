@@ -33,4 +33,13 @@ But if you’d like to buy them separately I have provided a table below.
 | Breadboard 400     | 2     | 98.00 SEK (49 Each)    |   [Electrokit](https://www.electrokit.com/en/product/digital-temperature-and-humidity-sensor-dht11/) |
 | Jumper wires     | 9     | 29.00    |   [Electrokit](https://www.electrokit.com/en/product/jumper-wires-1-pin-male-male-150mm-10-pack/) |
 
+#
+
+**Fig.1 Rasberry Pico W**
+
+
+The Raspberry Pi Pico W is an affordable microcontroller board that serves as the foundation for various projects. With its built-in wireless networking capabilities, it offers convenient connectivity options.
+
+<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41019/41019110-1.jpg" align="left" height="600" width="800" ></a>
+
 
