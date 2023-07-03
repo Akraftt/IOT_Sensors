@@ -124,3 +124,4 @@ Jumper wires are essential components that facilitate the connection between dif
 
 # Computer Setup
 
+Any OS should work fine, but unfortunately I cannot verify this since I only use Windows 10 for this project.
