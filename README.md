@@ -14,3 +14,10 @@ This project is not that long nor that difficult to perform, so the average time
 # Objective
 
 The objective of this project is to use a microcontroller to measure different types of values, such as temperature, humidity and magnetic field data. The goal of this project is to measure more values than your traditional thermometer and being able to view the data in another location through Adafruit.
+
+# Material
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
