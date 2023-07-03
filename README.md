@@ -19,6 +19,9 @@ The objective of this project is to use a microcontroller to measure different t
 
 | Device          | Price             | Link    |
 |:-------------:|:-------------:|:-------------:|
-| Rasberry Pico W  | 98.00 SEK | [Electrokit](https://www.electrokit.com/en/product/raspberry-pi-pico-w/)
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Rasberry Pico W  | 98.00 SEK |       [Electrokit](https://www.electrokit.com/en/product/raspberry-pi-pico-w/)
+| MCP9700 TO-92     | 10.75 sek     |   [Electrokit](https://www.electrokit.com/en/product/mcp9700-e-to-to-92-temperature-sensor/) |
+| TLV49645 SIP-3 | 18.00 SEK      |    [Electrokit](https://www.electrokit.com/en/product/tlv49645-sip-3-hall-effektsensor-digital-2/) |
+| DHT11 Sensor | 49.00 SEK      |   [Electrokit](https://www.electrokit.com/en/product/digital-temperature-and-humidity-sensor-dht11/) |
+
+
