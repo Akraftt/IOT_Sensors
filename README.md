@@ -51,7 +51,7 @@ The MCP9700 TO-92 is a small temperature sensor module commonly used in electron
 
 #
 
-**Fig.3 MCP9700 TO-92**
+**Fig.3 TLV49645 SIP-3**
 
 The MCP9700 TO-92 is a small temperature sensor module commonly used in electronic projects. With its compact form factor and straightforward interface, it provides accurate temperature measurements. Its TO-92 package allows for easy integration into circuits, making it an ideal choice for temperature sensing applications.
 
