@@ -63,7 +63,7 @@ The TLV49645 SIP-3 is a compact magnetic sensor module widely used in various el
 
 The DHT11 sensor is a commonly used module for measuring temperature and humidity in electronic projects. It is a cost-effective sensor that provides reliable and accurate readings. With its compact size and simple interface, the DHT11 sensor is widely employed in applications where monitoring environmental conditions is necessary.
 
-<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41019/41019110-1.jpg" align="middle" height="600" width="800" ></a>
+<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41015/41015728-1.jpg" align="middle" height="600" width="800" ></a>
 
 #
 
