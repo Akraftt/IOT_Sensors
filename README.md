@@ -37,9 +37,11 @@ But if you’d like to buy them separately I have provided a table below.
 
 **Fig.1 Rasberry Pico W**
 
-
 The Raspberry Pi Pico W is an affordable microcontroller board that serves as the foundation for various projects. With its built-in wireless networking capabilities, it offers convenient connectivity options.
 
-<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41019/41019110-1.jpg" align="left" height="600" width="800" ></a>
+<a href="url"><img src="https://www.electrokit.com/uploads/productimage/41019/41019110-1.jpg" align="middle" height="600" width="800" ></a>
+
+#
 
 
+**Fig.1 Rasberry Pico W**
