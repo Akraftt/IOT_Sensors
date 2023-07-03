@@ -99,7 +99,15 @@ Jumper wires are essential components that facilitate the connection between dif
 
 <a href="url"><img src="https://i.imgur.com/OEZxPa7.png" align="middle" height="600" width="800" ></a>
 
+#
+
+
 **Fig.2 TLV49645 SIP-3**
+
+![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/693d6f12-a79a-4b2a-a379-929ac55c7967)
+
+
+<a href="url"><img src="https://i.imgur.com/Gn52EAZ.png" align="middle" height="" width="" ></a>
 
 
 **Fig.3 DHT11 Sensor**
