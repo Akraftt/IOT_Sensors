@@ -19,6 +19,6 @@ The objective of this project is to use a microcontroller to measure different t
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| ![alt text]     | right-aligned | $1600 |
+| [![alt text] ](https://github.com/Akraftt/IOT_Sensors/issues/1)    | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
