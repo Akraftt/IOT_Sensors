@@ -290,3 +290,14 @@ while True:
 
     time.sleep(10)
 ```
+
+
+# Transmitting the data
+The data is sent every 10 seconds to avoid exceeding Adafruits limit. And as previously mentioned the transmission is done through Wi-Fi using the MQTT protocol. 
+```python
+time.sleep(10)
+```
+
+# Presenting the data
+All data is presented on Adafruit. In the image below we can see three different feeds, temperature, magnetic field data and finally humidity. 
+![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/86106828-4f97-46ed-98b8-07b86d130cb4)
