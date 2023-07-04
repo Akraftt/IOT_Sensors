@@ -160,3 +160,9 @@ To easiest and most effective way to upload code to our device is done by:
 By uploading the entire folder we make sure every single change or newly written code is saved.
 ![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/e67e673e-7d7b-4c2c-b2f5-c21f1614fade)
 
+
+Running the code on our device is done by:
+1. Right click main.py
+2. Hover over pymakr
+3. Select "Run File on device"
+![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/16e3311f-5ee6-4f39-b15b-403dcfb674ec)
