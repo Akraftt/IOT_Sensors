@@ -124,4 +124,10 @@ Jumper wires are essential components that facilitate the connection between dif
 
 # Computer Setup
 
-Any OS should work fine, but unfortunately I cannot verify this since I only use Windows 10 for this project.
+Any OS should work fine, but unfortunately I cannot verify this since I only use Windows 10 for this project. This project is focused around Visual Studio Code, since it is a very easy IDE for beginners to use.
+
+
+* Install the most current version of [Node JS](https://nodejs.org/en) not LTS. Open cmd and enter ["node -v"](https://i.imgur.com/hjv598i.png) to verify your installation.
+* Install the correct version of [Visual Studio Code](https://code.visualstudio.com/) depending on your OS.
+* Navigate to the [Extensions](https://i.imgur.com/wYmMKGn.png) in Vs Code or simply press (Ctrl + Shift + X) & Search for pymakr and download the current version.
+* 
