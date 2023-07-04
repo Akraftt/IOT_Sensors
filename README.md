@@ -131,7 +131,7 @@ Any OS should work fine, but unfortunately I cannot verify this since I only use
 * Install the correct version of [Visual Studio Code](https://code.visualstudio.com/) depending on your OS.
 * Navigate to the [Extensions](https://i.imgur.com/wYmMKGn.png) in Vs Code or simply press (Ctrl + Shift + X) & Search for pymakr and download the current version.
 
-# Computer Setup: Flashing your Raspberry Pico W and executing code.
+# Computer Setup: Flashing your Raspberry Pico W
 * Download the [firmware](https://micropython.org/download/rp2-pico-w/), very important! choose the .uf2 file under **Releases** not **Nightly builds**!
 * After downloading the file, connect the micro-USB to your Raspberry Pico W. **Do not connect the other end of the cable into your PC yet!**
 * Hold down the BOOTSEL button on your Pico W meanwhile you connect the other end of the cable into your PC.
@@ -139,3 +139,24 @@ Any OS should work fine, but unfortunately I cannot verify this since I only use
 
 * If done correctly a new file storage called **RPI-RP2** should open.
 * Drag and drop your .uf2 file into this folder. If done correctly the folder should disappear and your Pico should disconnect and reconnect from your PC. If you have System Sounds you will hear the corresponding sounds.
+
+# Computer Setup: Executing code.
+The first and most important step to running code on your Pico W is to connect the device with PyMakr
+![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/d9e159da-50fa-4374-ac3a-b1934c8476c0)
+
+After connecting your Pico, you need to create a terminal. This where we will see the output from running the code.
+![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/ff69b894-de04-40de-8bcc-0e5abb9e89f1)
+
+Once the terminal has been created, we can test our device by running the following code:
+```python
+print("test")
+```
+![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/d01c0e28-2baf-4e03-a642-0a949360a313)
+
+To easiest and most effective way to upload code to our device is done by:
+1. Right click on the folder, in my case "5600"
+2. Hover over pymakr
+3. Click "Upload to device" which also can be done by pressing (Ctrl+Shift+S)
+By uploading the entire folder we make sure every single change or newly written code is saved.
+![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/e67e673e-7d7b-4c2c-b2f5-c21f1614fade)
+
