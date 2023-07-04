@@ -122,7 +122,7 @@ Jumper wires are essential components that facilitate the connection between dif
 
 
 
-# Computer Setup
+# Computer Setup: Installation
 
 Any OS should work fine, but unfortunately I cannot verify this since I only use Windows 10 for this project. This project is focused around Visual Studio Code, since it is a very easy IDE for beginners to use. To start writing code the following steps below is a requirement.
 
@@ -130,4 +130,12 @@ Any OS should work fine, but unfortunately I cannot verify this since I only use
 * Install the most current version of [Node JS](https://nodejs.org/en) not LTS. Open cmd and enter ["node -v"](https://i.imgur.com/hjv598i.png) to verify your installation.
 * Install the correct version of [Visual Studio Code](https://code.visualstudio.com/) depending on your OS.
 * Navigate to the [Extensions](https://i.imgur.com/wYmMKGn.png) in Vs Code or simply press (Ctrl + Shift + X) & Search for pymakr and download the current version.
-* 
+
+# Computer Setup: Flashing your Raspberry Pico W and executing code.
+* Download the [firmware](https://micropython.org/download/rp2-pico-w/), very important! choose the .uf2 file under **Releases** not **Nightly builds**!
+* After downloading the file, connect the micro-USB to your Raspberry Pico W. **Do not connect the other end of the cable into your PC yet!**
+* Hold down the BOOTSEL button on your Pico W meanwhile you connect the other end of the cable into your PC.
+![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/3e82eb35-63c7-4db9-9a3f-60148e96f6a0)
+
+* If done correctly a new file storage called **RPI-RP2** should open.
+* Drag and drop your .uf2 file into this folder. If done correctly the folder should disappear and your Pico should disconnect and reconnect from your PC. If you have System Sounds you will hear the corresponding sounds.
