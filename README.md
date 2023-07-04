@@ -245,7 +245,7 @@ try:
 except KeyboardInterrupt:
     print("Interupted")
 ```
-And finally, we use our (AIO) configurations and do some calculations so the temperature is in celsius. The loop
+And finally, we use our (AIO) configurations and do some calculations so the temperature is in celsius. The loop will run indefinitely and print and send data every 10 seconds.
 ```python
 adc = machine.ADC(MCP9700_PIN)
 sf = 4095/65535 # Scale factor
