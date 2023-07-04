@@ -124,7 +124,7 @@ Jumper wires are essential components that facilitate the connection between dif
 
 # Computer Setup
 
-Any OS should work fine, but unfortunately I cannot verify this since I only use Windows 10 for this project. This project is focused around Visual Studio Code, since it is a very easy IDE for beginners to use.
+Any OS should work fine, but unfortunately I cannot verify this since I only use Windows 10 for this project. This project is focused around Visual Studio Code, since it is a very easy IDE for beginners to use. To start writing code the following steps below is a requirement.
 
 
 * Install the most current version of [Node JS](https://nodejs.org/en) not LTS. Open cmd and enter ["node -v"](https://i.imgur.com/hjv598i.png) to verify your installation.
