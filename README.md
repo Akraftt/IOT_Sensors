@@ -53,7 +53,7 @@ The MCP9700 TO-92 is a small temperature sensor module commonly used in electron
 
 ## **Fig.3 TLV49645 SIP-3**
 
-The TLV49645 SIP-3 is a compact magnetic sensor module widely used in various electronic applications. With its small size and convenient SIP-3 package, it offers precise magnetic field detection. The module is easily integrated into circuits, making it an excellent choice for projects requiring magnetic sensing capabilities.
+The TLV49645 SIP-3 is a magnetic sensor module widely used in various electronic applications. With its small size and convenient SIP-3 package, it offers precise magnetic field detection. The module is easily integrated into circuits, making it an excellent choice for projects requiring magnetic sensing capabilities.
 
 <a href="url"><img src="https://www.electrokit.com/uploads/productimage/41015/41015964.jpg" align="middle" height="600" width="800" ></a>
 
