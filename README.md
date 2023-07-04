@@ -166,3 +166,127 @@ Running the code on our device is done by:
 2. Hover over pymakr
 3. Select "Run File on device"
 ![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/16e3311f-5ee6-4f39-b15b-403dcfb674ec)
+
+
+# Platform
+Before we move on to the code it is important to choose your platform. Personally I choose the Wi-Fi and Adafruit (MQTT) path, because it is the easiest one by far for a beginner. It requires relatively very little code in order to work.
+If you are looking for a challenge I strongly recommend loRaWAN instead of Wi-Fi, because then your device is not dependent on a Wi-Fi connection which can be quite short if you want to measure things for example in your garden or further away from where you live.
+
+# Code
+
+There is a total of 4 files inside my project
+* **main.py** - *Where the code is executed from*
+* **boot.py** - *Where the connects to Wi-Fi (Empty in my case)*
+* **credentials.py** - *Contains your ssid and password to your Wi-Fi*
+* **mqtt.py** - *Provides functionality to connect to an MQTT server*
+
+# main.py
+Importing all necessary for this project.
+```python
+from mqtt import MQTTClient   # For use of MQTT protocol to talk to Adafruit IO
+import ubinascii              # Conversions between binary data and various encodings
+import machine                # Interfaces with hardware components
+from machine import Pin       # Define pin
+import time
+import dht
+```
+
+Adafruit IO (AIO) configurations.
+```python
+AIO_SERVER = "io.adafruit.com"
+AIO_PORT = 1883
+AIO_USER = "Ak155"
+AIO_KEY = "Your-Key-Here"
+AIO_CLIENT_ID = ubinascii.hexlify(machine.unique_id()) 
+AIO_TEMPERATURE_FEED = "Your-Feed-Here"     # Tempe    - SIP-3
+AIO_MAGNETIC_FEED = "Your-Feed-Here"        # Magnetic - TO-92
+AIO_HUMIDITY_FEED ="Your-Feed-Here"         # Humidity - DHT11
+```
+
+Setting up our sensors.
+```python
+MCP9700_PIN = 28   # Pin 34 for MCP9700 TO-92  - Temperature
+TLV49645_PIN = 16  # Pin 21 for TLV49645 SIP-3 - Hall-effektsensor
+DHT11_PIN = 27
+```
+Passing the sensors in as arguments.
+```python
+halleffect = Pin(TLV49645_PIN, mode=Pin.IN) #Hall-effekt sensor
+tempsensor = machine.ADC(machine.Pin(MCP9700_PIN))
+dht_sensor = dht.DHT11(machine.Pin(DHT11_PIN ))  # DHT11 sensor connected to Pin 27
+```
+
+Function to connect to Wi-Fi.
+```python
+def do_connect():
+    import network
+    from time import sleep
+    wlan = network.WLAN(network.STA_IF)         # Put modem on Station mode
+
+    if not wlan.isconnected():                  # Check if already connected
+        print('connecting to network...')
+        wlan.active(True)                       # Activate network interface
+        wlan.config(pm = 0xa11140)
+        wlan.connect(WIFI_SSID, WIFI_PASS)      # Your WiFi Credential
+        print('Waiting for connection...', end='')
+        while not wlan.isconnected() and wlan.status() >= 0:
+            print('.', end='')
+            sleep(1)
+    ip = wlan.ifconfig()[0]
+    print('\nConnected on {}'.format(ip))
+    return ip
+```
+
+Actually connecting to the Wi-Fi
+```python
+try:
+    ip = do_connect()
+    print(ip)
+except KeyboardInterrupt:
+    print("Interupted")
+```
+And finally, we use our (AIO) configurations and do some calculations so the temperature is in celsius. The loop
+```python
+adc = machine.ADC(MCP9700_PIN)
+sf = 4095/65535 # Scale factor
+volt_per_adc = (3.3 / 4095)
+client = MQTTClient(AIO_CLIENT_ID, AIO_SERVER, AIO_PORT, AIO_USER, AIO_KEY, keepalive=30)
+client.connect()
+
+while True:
+ 
+    # ------------------------------------
+    # MCP9700 SIP-3 Calculations
+    adc_value = tempsensor.read_u16()
+    mv = adc.read_u16()
+    adc_12b = mv * sf
+    volt = adc_12b * volt_per_adc
+    dx = abs(50 - 0)
+    dy = abs(0 - 0.5)
+    shift = volt - 0.5
+    temp = shift / (dy / dx)
+    print(temp)
+    # ------------------------------------
+
+    # ------------------------------------
+    # Magnetic No Calculations
+    print("Magnetic: " + str(halleffect.value()))
+    # ------------------------------------
+
+    # ------------------------------------
+    # Read DHT11 sensor data
+    dht_sensor.measure()
+    humidity = dht_sensor.humidity()
+    print("Humidity: " + str(humidity))
+    # ------------------------------------
+    
+    try:
+        client.publish(topic=AIO_TEMPERATURE_FEED, msg=str(temp))
+        client.publish(topic=AIO_MAGNETIC_FEED, msg=str(halleffect.value()))
+        client.publish(topic=AIO_HUMIDITY_FEED, msg=str(humidity))
+        print("Data sent successfully!")
+    except Exception as e:
+        print("Error sending data:", str(e))
+
+    time.sleep(10)
+```
