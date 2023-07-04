@@ -301,3 +301,13 @@ time.sleep(10)
 # Presenting the data
 All data is presented on Adafruit. In the image below we can see three different feeds, temperature, magnetic field data and finally humidity. 
 ![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/86106828-4f97-46ed-98b8-07b86d130cb4)
+
+# Finalizing the design and reflections.
+In the image below the final product of the project can be seen.
+![image](https://github.com/Akraftt/IOT_Sensors/assets/90035332/477ed7de-37c7-4ea0-8c50-6de3e435ae18)
+
+Overall the project was a success, I manage to connect a few censors and circuit them correctly along with some code so that their data was able to be sent and presented.
+
+There were some issues in the beginning the I’ve managed to overcome with the help of a couple of teaching assistants. One them were that the boot file “boot.py” was not executed properly, thus everything had to be stored inside the main file. Another were that the Pico was not compatible with my main computer due to some Windows shell issues. Because of those issues the time towards the end got a bit hectic by everything worked out in the end.
+
+
