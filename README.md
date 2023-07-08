@@ -295,7 +295,7 @@ while True:
 
 
 # Transmitting the data
-The data is sent every 10 seconds to avoid exceeding Adafruits limit. And as previously mentioned the transmission is done through Wi-Fi using the MQTT protocol. 
+The data is sent every 10 seconds to avoid exceeding Adafruits limit. And as previously mentioned the transmission is done through Wi-Fi using the MQTT protocol. One important thing to note here is that the Raspberry has to be connected to the computer at all times in order to work since I never installed a battery. If you decide to use a battery for your own project I recommend using loRaWAN instead because it drains less energy then wi-fi. 
 ```python
 time.sleep(10)
 ```
