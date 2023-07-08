@@ -15,6 +15,8 @@ This project is not that long nor that difficult to perform, so the average time
 
 The objective of this project is to use a microcontroller to measure different types of values, such as temperature, humidity and magnetic field data. The goal of this project is to measure more values than your traditional thermometer and being able to view the data in another location through Adafruit.
 
+I believe this project will give the insight that everyone can make an IoT project, and how little code actually is required to measure temperature and humidity.
+
 # Material
 
 Everything I’ve used in this project can be found in the **[LNU – 1DT305 Standard Kit (2023)](https://www.electrokit.com/en/product/lnu-1dt305-standard-kit-2023/)**
