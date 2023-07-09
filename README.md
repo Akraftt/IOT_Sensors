@@ -183,7 +183,15 @@ There is a total of 4 files inside my project
 * **mqtt.py** - *Provides functionality to connect to an MQTT server*
 
 # main.py
+
 Importing all necessary for this project.
+
+* **mqtt:** MQTT client for communication with Adafruit IO
+* **ubinascii:** Conversion library for binary data and encodings
+* **machine:** Module for hardware interactions
+* **time:** Module for time-related operations
+* **dht:** Library for DHT11 sensor
+
 ```python
 from mqtt import MQTTClient   # For use of MQTT protocol to talk to Adafruit IO
 import ubinascii              # Conversions between binary data and various encodings
