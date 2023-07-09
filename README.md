@@ -183,9 +183,7 @@ There is a total of 4 files inside my project
 * **mqtt.py** - *Provides functionality to connect to an MQTT server*
 
 # main.py
-
 Importing all necessary for this project.
-
 * **mqtt:** MQTT client for communication with Adafruit IO
 * **ubinascii:** Conversion library for binary data and encodings
 * **machine:** Module for hardware interactions
